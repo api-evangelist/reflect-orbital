@@ -1,0 +1,27 @@
+aid: reflect-orbital
+name: Reflect Orbital
+description: 'Reflect Orbital is a company surfaced as a portfolio company of lux-capital and added to
+  the API Evangelist network as a stub for enrichment. Sector: space. This profile is a lead awaiting
+  the enrichment pipeline.'
+url: https://raw.githubusercontent.com/api-evangelist/reflect-orbital/refs/heads/main/apis.yml
+x-type: company
+x-source: vc-portfolio
+x-backed-by:
+- lux-capital
+x-tier: stub
+x-tier-reason: portfolio-lead
+specificationVersion: '0.20'
+created: '2026-07-17'
+modified: '2026-07-17'
+tags:
+- Company
+- Space
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://www.reflectorbital.com
