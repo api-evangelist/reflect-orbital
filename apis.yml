@@ -1,8 +1,27 @@
 aid: reflect-orbital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reflect-orbital.png
 name: Reflect Orbital
-description: 'Reflect Orbital is a company surfaced as a portfolio company of lux-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: space. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Reflect Orbital is a space-technology company developing satellite-based
+  infrastructure to redirect natural sunlight to precise locations on Earth. It offers
+  a Lighting service (adjustable illumination from moonlight to full-daylight intensity,
+  controllable via app or website with no ground infrastructure) and an Energy service
+  (augmenting solar-farm output by directing concentrated sunlight onto photovoltaic
+  arrays). The company plans to expand its constellation from 2 satellites in 2026 toward
+  50,000+ by 2035. Reflect Orbital is backed by Lux Capital and was added to the API
+  Evangelist network as a portfolio-sourced company profile. As of this enrichment pass
+  the company publishes no public API, developer portal, documentation, SDKs, pricing,
+  or sign-up surface.'
 url: https://raw.githubusercontent.com/api-evangelist/reflect-orbital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Space
+- Satellites
+- Space Technology
+- Solar Energy
+- Energy
+- Lighting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/reflect-orbital-domain-security.yml
+- type: Blog
+  url: https://www.reflectorbital.com/news-and-insights
+- type: Support
+  url: https://www.reflectorbital.com/contact
 - type: Website
   url: https://www.reflectorbital.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
